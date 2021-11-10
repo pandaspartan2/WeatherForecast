@@ -13,6 +13,7 @@
 		7DF61CEB273C182D00ED3B43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF61CEA273C182D00ED3B43 /* Preview Assets.xcassets */; };
 		7DF61CF7273C23C400ED3B43 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF61CF6273C23C400ED3B43 /* API.swift */; };
 		7DF61CF9273C251B00ED3B43 /* API+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF61CF8273C251A00ED3B43 /* API+extension.swift */; };
+		7DF61CFB273C284B00ED3B43 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF61CFA273C284B00ED3B43 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7DF61CEA273C182D00ED3B43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DF61CF6273C23C400ED3B43 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7DF61CF8273C251A00ED3B43 /* API+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+extension.swift"; sourceTree = "<group>"; };
+		7DF61CFA273C284B00ED3B43 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				7DF61CF6273C23C400ED3B43 /* API.swift */,
 				7DF61CF8273C251A00ED3B43 /* API+extension.swift */,
+				7DF61CFA273C284B00ED3B43 /* NetWorkManager.swift */,
 			);
 			path = Netwoking;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF61CFB273C284B00ED3B43 /* NetWorkManager.swift in Sources */,
 				7DF61CF9273C251B00ED3B43 /* API+extension.swift in Sources */,
 				7DF61CE6273C182C00ED3B43 /* ContentView.swift in Sources */,
 				7DF61CF7273C23C400ED3B43 /* API.swift in Sources */,
