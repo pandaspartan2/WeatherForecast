@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var cityVm = CityViewViewModel()
+    @ObservedObject var cityVM = CityViewViewModel()
     var body: some View {
         ZStack(alignment: .bottom) {
             VStack(spacing: 0) {
-//                MenuHeaderView(cityVM: cityVM)
-//                ScrollView(showsIndicators: false) {
-//                    CityView(cityVM: cityVM)
-//                }
+                MenuHeaderView(cityVM: cityVM)
+                ScrollView(showsIndicators: false) {
+                    CityView(cityVM: cityVM)
+                }
             } .padding(.top, 40)
         }.background(LinearGradient(gradient: Gradient(colors: [Color("ColorOne"), Color("ColorTwo")]), startPoint: .topLeading, endPoint: .bottomTrailing))
             .edgesIgnoringSafeArea(.all)
